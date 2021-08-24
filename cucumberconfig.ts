@@ -40,11 +40,12 @@ export let config:Config = {
 
 
     capabilities: {
-        browserName: 'chrome',
-        chromeOptions: {
-            args: ["--headless", "--disable-gpu", "--window-size=800x600"]
+        'browserName': 'chrome',
+        'chromeOptions': {
+            'args': ['show-fps-counter=true']
         }
     },
+
 
 
 
