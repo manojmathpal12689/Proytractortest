@@ -40,13 +40,12 @@ export let config:Config = {
 
 
     capabilities: {
-        'browserName': 'chrome',
-        'chromeOptions': {
-            'args': ['show-fps-counter=true']
+        'browserName': 'firefox',
+        'moz:firefoxOptions': {
+            'args': ['--safe-mode']
         }
-
-
     },
+
 
 
 
