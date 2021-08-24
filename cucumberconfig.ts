@@ -41,6 +41,9 @@ export let config:Config = {
 
     capabilities: {
         'browserName': 'chrome',
+        'chromeOptions': {
+            'args': ['show-fps-counter=true']
+        }
 
 
     },
