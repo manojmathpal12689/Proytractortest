@@ -6,7 +6,7 @@ Feature: Validate the calculator functionality.
     Then output display should be "<temp2>".
     Examples:
       |  temp| temp1 | temp2 |
-      |    4   |   5 |  10  |
+      |    4   |   5 |  9  |
       |    5   |   7 |  12 |
 
     @Angulartesting
