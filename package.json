@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
 
-    "test": "protractor JSFiles/configuration.js",
+    "test": "protractor JSFiles/cucumberconfig.js",
     "pretest": "tsc",
-    "cucumbertest": "protractor JSFiles/cucumberconfig.js",
     "protractor":"./node_modules/protractor/built/cli.js",
     "webdriver-update": "./node_modules/.bin/webdriver-manager update"
   },
