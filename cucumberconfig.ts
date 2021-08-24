@@ -40,12 +40,11 @@ export let config:Config = {
 
 
     capabilities: {
-        'browserName': 'firefox',
-        'moz:firefoxOptions': {
-            'args': ['--safe-mode']
+        browserName: 'chrome',
+        chromeOptions: {
+            args: ["--headless", "--disable-gpu", "--window-size=800x600"]
         }
     },
-
 
 
 
